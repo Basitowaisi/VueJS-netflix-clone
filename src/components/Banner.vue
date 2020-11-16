@@ -18,7 +18,7 @@
 
 <script>
 import axios from "axios"
-const API_KEY = "5e161de38e79c6f6970b942b82c13a0b"
+const API_KEY = process.env.VUE_APP_TMDB_KEY
 export default {
   name: "Banner",
   data() {
